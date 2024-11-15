@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">HOME</string>
+    <string-array name="posts">
+        <item>post 1</item>
+        <item>post 2</item>
+        <item>post 3</item>
+        <item>post 4</item>
+        <item>post 5</item>
+        <item>post 6</item>
+        <item>post 7</item>
+        <item>post 8</item>
+        <item>post 9</item>
+    </string-array>
+    <string-array name="spin1">
+        <item>VILLE 1</item>
+        <item>Douala</item>
+        <item>Yaounde</item>
+        <item>Bafoussam</item>
+        <item>Bafang</item>
+        <item>Garoua</item>
+        <item>Maroua</item>
+    </string-array>
+    <string-array name="spin2">
+        <item>VILLE 2</item>
+        <item>Douala</item>
+        <item>Yaounde</item>
+        <item>Bafoussam</item>
+        <item>Bafang</item>
+        <item>Garoua</item>
+        <item>Maroua</item>
+    </string-array>
+    <string-array name="agences">
+        <item>DOUALA - YAOUNDE</item>
+        <item>DOUALA - TCHANG </item>
+        <item>DOUALA - BAFANG </item>
+        <item>DOUALA - GAROUA </item>
+        <item>YAOUNDE - DOUALA</item>
+        <item>DOUALA - EDEA   </item>
+        <item>DOUALA - YAOUNDE</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

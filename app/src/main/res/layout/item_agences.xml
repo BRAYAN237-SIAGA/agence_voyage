@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center|left"
+    android:background="#E7E1E1">
+
+    <ImageView
+        android:id="@+id/image_agences"
+        android:layout_width="140dp"
+        android:layout_height="123dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="36dp"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/ic_launcher"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/nom_agences"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="36dp"
+        tools:text="FINEXS VOYAGE"
+        android:textColor="#403434"
+        android:textSize="23sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/image_agences"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/ville_1_depart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        tools:text="DOUALA"
+        android:textColor="#DC2323"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/image_agences"
+        app:layout_constraintTop_toBottomOf="@+id/nom_agences" />
+
+    <TextView
+        android:id="@+id/ville_2_fin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="9dp"
+        android:layout_marginEnd="16dp"
+        tools:text="YAOUNDE"
+        android:textColor="#DC2323"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nom_agences" />
+
+    <TextView
+        android:id="@+id/quartier_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="1dp"
+        tools:text="AKWA"
+        android:textColor="#282424"
+        app:layout_constraintStart_toEndOf="@+id/image_agences"
+        app:layout_constraintTop_toBottomOf="@+id/ville_1_depart" />
+
+    <TextView
+        android:id="@+id/quartier_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="35dp"
+        tools:text="MVAN"
+        android:textColor="#282424"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ville_2_fin" />
+
+    <TextView
+        android:id="@+id/kilometre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="71dp"
+        android:layout_marginTop="33dp"
+        android:layout_marginEnd="103dp"
+        tools:text="237,3 km"
+        android:textColor="#161313"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/image_agences"
+        app:layout_constraintTop_toBottomOf="@+id/ville_1_depart" />
+</androidx.constraintlayout.widget.ConstraintLayout>

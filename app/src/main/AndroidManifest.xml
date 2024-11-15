@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" >
+
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Siaga"
+        tools:targetApi="31" >
+        <activity
+            android:name=".contacts"
+            android:exported="false"
+            android:label="CHOISIR UN CONTACT"
+            android:parentActivityName=".HomeActivity"/>
+        <activity
+            android:name=".page_chargement"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".connection"
+            android:exported="false"
+            android:label="SE CONNECTER"
+            android:parentActivityName=".inscription_step1" />
+        <activity
+            android:name=".formulaire"
+            android:exported="false"
+            android:label="CREER UN COMPTE"
+            android:parentActivityName=".inscription_step1" />
+        <activity
+            android:name=".inscription_step1"
+            android:exported="true"
+            android:label=" WELCOME" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".personne"
+            android:exported="false"
+            android:label="PROFILE" />
+        <activity
+            android:name=".recu_agence"
+            android:exported="false"
+            android:label="RECU AGENCE"
+            android:parentActivityName=".online" />
+        <activity
+            android:name=".online"
+            android:exported="false"
+            android:label="ONLINE BUY"
+            android:parentActivityName=".mode_payement" />
+        <activity
+            android:name=".mode_payement"
+            android:exported="false"
+            android:label="MODE DE PAIEMENT"
+            android:parentActivityName=".disponibilites" />
+        <activity
+            android:name=".disponibilites"
+            android:exported="false"
+            android:label="DISPONIBILITES"
+            android:parentActivityName=".agences" />
+        <activity
+            android:name=".agences"
+            android:exported="false"
+            android:label="ACHAT DE TICKET (03)"
+            android:parentActivityName=".choix" />
+        <activity
+            android:name=".choix"
+            android:exported="false"
+            android:label="ACHAT DE TICKET (02)"
+            android:parentActivityName=".HomeActivity" />
+        <activity
+            android:name=".HomeActivity"
+            android:exported="false"
+            android:label="ACHAT DE TICKET (01)"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

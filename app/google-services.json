@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "429008588851",
+    "project_id": "siaga-2aade",
+    "storage_bucket": "siaga-2aade.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:429008588851:android:6e036aea339175faf4d346",
+        "android_client_info": {
+          "package_name": "com.example.siaga"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB71gpKmF7T8vg-0vAr-3dPxAjm3fQndWs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
